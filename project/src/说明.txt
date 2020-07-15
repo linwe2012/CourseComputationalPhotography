@@ -1,0 +1,5 @@
+说明：
+	请同学们先认真阅读代码，然后根据提示，填写好PhotoMontage.cpp里面的三个函数：
+	PhotoMontage::dataFn()
+	PhotoMontage::smoothFn()
+	PhotoMontage::SolveChannel()

@@ -1,0 +1,13 @@
+.vs/
+**/Release/
+**/Debug/
+**/x64/
+packages/
+
+**/OpenCV23
+**/*.dll
+**/lib
+**/Eigen
+**/gco-v3.0
+**/*.bmp
+**/*.jpg

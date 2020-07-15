@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='Chart.min.js'></script>
+</head>
+<body>
+    
+    <script>
+    var canvas = document.createElement('canvas')
+    
+    canvas.width = 1200
+    canvas.height = 800
+    document.body.append(canvas)
+    var ctx = canvas.getContext('2d')
+    var gradient = ctx.createLinearGradient(0, 0, 100, 600);
+    gradient.addColorStop(0, '#1E88E5FF');   
+    gradient.addColorStop(1, '#1E88E500');
+    var gradient2 = ctx.createLinearGradient(0, 0, 100, 500);
+    ctx.cre
+    gradient2.addColorStop(0, '#009088FF');   
+    gradient2.addColorStop(1, '#00908800');
+    var data = {
+            labels : ["3","5","7","9","11","13","15","17","19","21","23","25","27","29", "31", "33", "35", "37", "39", "41", "43", "45", "47", "49", "51", "53", "55"],
+            datasets: [
+            {
+                label: 'Hashed Histogram',
+                backgroundColor : gradient, // Put the gradient here as a fill color
+                borderColor : "#0D47A1",
+                data : [12, 13, 14, 16, 19, 23, 24, 29, 30, 32, 32, 37, 40, 44, 42, 48, 46, 48, 51, 54, 56, 59, 61,  65, 67, 62, 65]
+            },
+            {
+                data : [0,   1, 27, 29, 30, 31, 34, 39, 46, 42, 48, 50, 53, 56, 57, 63, 70, 76, 79, 86, 91, 99, 102, 105, 112, 120, 121],
+                label: 'OpenCV',
+                backgroundColor : gradient2, // Put the gradient here as a fill color
+                borderColor : "#00695C",
+                
+            }
+            ]
+        };
+
+        var options = {
+            label: 'ms',
+            responsive: true,
+            datasetStrokeWidth : 3,
+            pointDotStrokeWidth : 4,
+            tooltipFillColor: "rgba(0,0,0,0.8)",
+            tooltipFontStyle: "bold",
+            tooltipTemplate: "<%if (label){%><%=label + ' hod' %>: <%}%><%= value + '°C' %>",
+            scaleLabel : "<%= Number(value).toFixed(0).replace('.', ',') + '°C'%>"
+        };
+
+        var myLineChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+            options: options
+        });
+    </script>
+</body>
+</html>
