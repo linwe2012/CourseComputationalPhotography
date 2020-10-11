@@ -1,0 +1,52 @@
+﻿1
+00:00:01,050 --> 00:00:04,050
+Select A Image from Gallery
+
+2
+00:00:04,050 --> 00:00:08,900
+Draw lines to indicate best part of different Images
+
+3
+00:00:08,950 --> 00:00:11,175
+Select fast init for faster solution of Gradients
+
+4
+00:00:11,250 --> 00:00:18,200
+Use different metrices to choose regions in images
+
+5
+00:00:18,400 --> 00:00:22,550
+Note some metrices like match color & edge doesnt peform well
+
+6
+00:00:22,900 --> 00:00:31,175
+You can see which regions are selected for different images
+
+7
+00:00:31,350 --> 00:00:41,775
+Some metrices select more plausible regions
+
+8
+00:00:44,850 --> 00:00:54,500
+Some metrics produce worser results
+
+9
+00:00:59,875 --> 00:01:17,225
+Now we enter HD mode, where compuation is more expensive and consumes more time
+
+10
+00:01:19,138 --> 00:01:30,275
+MatchGradient is much slower but produce better results than MatchColor
+
+11
+00:01:30,400 --> 00:01:39,250
+If still not satified by the results, you can add more strokes or more image to guide the algorithm
+
+12
+00:01:39,450 --> 00:01:46,875
+The man in the middle is picked from new image
+
+13
+00:01:47,475 --> 00:02:12,875
+Now I'm playing with MatchColor. It takes much more strokes but still produces worser results than Match Gradients
+
