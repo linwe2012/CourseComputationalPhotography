@@ -5,15 +5,15 @@ This is a repo for computational photography at ZJU.
 
 `labs/` contains 5 lab projects
 
-- [lab2](labs/lab2): Basic filters, including a multi-thread median filter **faster than OpenCV** (tested with 8 threads, while opencv has one thread only). [report here](labs/lab2/lab2.md) [English Description](#Lab 2: Filters)
+- [lab2](labs/lab2): Basic filters, including a multi-thread median filter **faster than OpenCV** (tested with 8 threads, while opencv has one thread only). [English description](#Lab%202:%20Filters), [Report here](labs/lab2/lab2.md)
 
-- [lab3](labs/lab3): Sparse Matrix & Gauss-Seidel Implementation. Modifying & Accessing my sparse matrix is faster than Eigen.
+- [lab3](labs/lab3): Sparse Matrix & Gauss-Seidel Implementation. Modifying & Accessing my sparse matrix is faster than Eigen. [English description](#%20Lab%203:%20Sparse%20Matrix%20&%20Gauss%20Seidel),  [Report here](labs/lab3/lab3.md)
 
-- [lab4](labs/lab4): Least Mean Sqaure optimization with Gauss-Newton (The course is haunted by gauss)
+- [lab4](labs/lab4): Least Mean Sqaure optimization with Gauss-Newton (The course is haunted by gauss) [English description](#%20Lab%204:%20Least%20Mean%20Sqaure%20optimization),  [Report here](labs/lab4/lab4.md)
 
-- [lab5](labs/lab5): AR application using Vuforia + Unity. 
+- [lab5](labs/lab5): AR application using Vuforia + Unity. [English description](#%20Lab%205:%20AR), [Report here](labs/lab5/report.md)
 
-- [lab8](labs/lab8): Paranoma, stitching + gradient domain fushion
+- [lab8](labs/lab8): Paranoma, stitching + gradient domain fushion [English description](#%20Lab%208:%20Panoroma), [Report here](labs/lab8/panorama.report.md)
 
 
 [project](project) contains final project for Digital Photomontage
