@@ -5,7 +5,7 @@ This is a repo for computational photography at ZJU.
 
 `labs/` contains 5 lab projects
 
-- [lab2](labs/lab2): Basic filters, including a multi-thread median filter **faster than OpenCV** (tested with 8 threads, while opencv has one thread only). [report here](labs/lab2/lab2.md)
+- [lab2](labs/lab2): Basic filters, including a multi-thread median filter **faster than OpenCV** (tested with 8 threads, while opencv has one thread only). [report here](labs/lab2/lab2.md) [English Description](#Lab 2: Filters)
 
 - [lab3](labs/lab3): Sparse Matrix & Gauss-Seidel Implementation. Modifying & Accessing my sparse matrix is faster than Eigen.
 
@@ -18,7 +18,7 @@ This is a repo for computational photography at ZJU.
 
 [project](project) contains final project for Digital Photomontage
 
-## Project
+## Project: Interactive Digital Photomontage
 
 [![IMG](https://img.shields.io/badge/Youtube-Demo-222222?labelColor=ff0000&logo=youtube)](https://youtu.be/aP075Cz8zFM)
 
@@ -39,7 +39,7 @@ My improvements of gradients domain fushion. It can **reduce 90% of iterations.*
 
 ![](img/Interactive%20Digital%20Photomontage%20-%20Results%202.jpg)
 
-## Lab 2
+## Lab 2: Filters
 
 **Highlights:** In the experiment, I designed and optimized the median filter algorithm. When the median filter template size is large, I use the advantages of multi-threading to achieve faster code than OpenCV.
 
@@ -95,7 +95,7 @@ In fact, this is still much slower than OpenCV, about 3 times slower. Inspired b
 
 
 
-## Lab 3
+## Lab 3: Sparse Matrix & Gauss Seidel
 
 **Highlights:** I implemented a sparse matrix class in C++. Compared with Eigen, it increases the space overhead by about 25%-50%, faster access speed than Eigen, and much **faster insertion speed (about 500x) than Eigen**. It also supports the initialization function required by the experimental guidance.
 
@@ -183,17 +183,18 @@ Python 可视化如下:
 
 
 
-## Lab 5 AR
+## Lab 5: AR
 
 [![IMG](https://img.shields.io/badge/Youtube-Demo-222222?labelColor=ff0000&logo=youtube)](https://youtu.be/XMA1fyXS2cY)
 
 [![](https://j.gifs.com/p83J1N.gif)](https://youtu.be/XMA1fyXS2cY)
 
 
+## Lab 8: Panoroma
 
 If you directly superimpose the gradient of each image, there will be very bad results as follows:
 
-![stitched](img/panoroma.report/stitched.jpg)
+![stitched](labs/lab8/img/panoroma.report/stitched.jpg)
 
 
 
